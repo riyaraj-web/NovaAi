@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+.next/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# OneDrive and system files
+OneDrive/
+Downloads/
+Documents/
+Music/
+Pictures/
+Videos/
+NTUSER.DAT
+.VirtualBox/
+.config/
+.cache/
+.docker/
+
+# Other projects (don't include in this repo)
+PantryPal/
+todo-app/
+**/.git/
+**/.env
+
+# Misc
+node_modules
+.pnp
+dist
+build
