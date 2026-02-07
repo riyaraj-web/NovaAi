@@ -4,16 +4,8 @@ import { Input } from "../ui/input";
 import { Select } from "../ui/select";
 import { Card } from "../ui/card";
 import { Textarea } from "../ui/textarea";
-import { profileService, UserProfile } from "../../services/profileService";
+import { profileService } from "../../services/profileService";
 import { preferencesService } from "../../services/preferencesService";
-
-interface UserPreferences {
-  theme: string;
-  language: string;
-  notifications: boolean;
-  emailDigest: boolean;
-  timezone: string;
-}
 
 export default function SettingsView() {
   const [loading, setLoading] = useState(true);
@@ -140,7 +132,7 @@ export default function SettingsView() {
                 onChange={(e) =>
                   setPreferenceData({
                     ...preferenceData,
-                    theme: e.target.value,
+                    theme: e.target.value as "light" | "dark",
                   })
                 }
               >

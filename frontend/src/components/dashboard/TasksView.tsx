@@ -232,7 +232,7 @@ export default function TasksView() {
                       </Badge>
                     )}
                     {task.dueDate && (
-                      <Badge variant="outline" className="border-gray-300">
+                      <Badge className="border border-gray-300 bg-transparent">
                         Due: {new Date(task.dueDate).toLocaleDateString()}
                       </Badge>
                     )}
