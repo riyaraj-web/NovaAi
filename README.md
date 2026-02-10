@@ -25,4 +25,6 @@ A full-stack web application that combines AI capabilities with productivity too
 - **Icons**: Lucide React
 - **Language**: TypeScript
 - **Build Tool**: Vite
+- <img width="1866" height="868" alt="{D2CB5147-9DB9-4673-8F40-AE5EA1BE96D8}" src="https://github.com/user-attachments/assets/1536182d-8a6a-4aaa-86ba-ca6f7b08b9e2" />
+
 
